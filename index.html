@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Funngro - Teen Freelancing Platform India</title>
+
+<!-- SEO -->
+<meta name="description" content="Earn money online for teens in India. Hire young freelancers easily.">
+<meta name="keywords" content="teen freelancing India, earn money online teens, hire talent India">
+<meta name="author" content="Aryan Singh">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Funngro - Teen Freelancing Platform">
+<meta property="og:description" content="Earn money & hire talent easily">
+<meta property="og:type" content="website">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div id="progressBar"></div>
+
+<!-- HEADER -->
+<header id="header">
+  <h1 class="logo">Funngro</h1>
+
+  <div class="header-right">
+    <button class="toggle-btn" onclick="toggleTheme()">🌙</button>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="teen.html">Teen</a>
+    <a href="company.html">Company</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>India’s #1 Teen Freelancing Platform 🚀</h2>
+    <p>Earn money online & hire young talent easily</p>
+
+    <div class="btn-group">
+      <button onclick="goTeen()">Start Earning</button>
+      <button class="outline" onclick="goCompany()">Hire Talent</button>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search features...">
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <h2>Platform Highlights</h2>
+
+  <div class="grid" id="featureList">
+    <div class="card">🚀 Skill Growth</div>
+    <div class="card">💰 Earn Money</div>
+    <div class="card">🏢 Real Projects</div>
+    <div class="card">🌍 Remote Work</div>
+    <div class="card">📱 Mobile Friendly</div>
+    <div class="card">⚡ Fast Payments</div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2>Success Stories</h2>
+
+  <div class="grid">
+    <div class="card">"Amazing platform!"</div>
+    <div class="card">"Got my first earning here"</div>
+    <div class="card">"Companies love young talent"</div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <h2>FAQs</h2>
+
+  <div class="faq-item" onclick="toggleFAQ(this)">
+    <div class="faq-question">Q: Is this free?</div>
+    <div class="faq-answer">Yes, completely free.</div>
+  </div>
+
+  <div class="faq-item" onclick="toggleFAQ(this)">
+    <div class="faq-question">Q: Can teens work?</div>
+    <div class="faq-answer">Yes, teens can work on real projects.</div>
+  </div>
+
+  <div class="faq-item" onclick="toggleFAQ(this)">
+    <div class="faq-question">Q: How do I start?</div>
+    <div class="faq-answer">Sign up and start applying to projects.</div>
+  </div>
+
+</section>
+
+<!-- BACK TO TOP -->
+<button id="topBtn" onclick="scrollTopBtn()">⬆</button>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Funngro Project</p>
+  <p>Designed & Developed by Aryan Singh 🚀</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
