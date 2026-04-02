@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hire Teen Freelancers India | Funngro</title>
+
+<meta name="description" content="Hire skilled teen freelancers in India. Affordable and fast.">
+<meta name="author" content="Aryan Singh">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div id="progressBar"></div>
+
+<!-- HEADER -->
+<header id="header">
+  <h1 class="logo">Funngro</h1>
+
+  <div class="header-right">
+    <button class="toggle-btn" onclick="toggleTheme()">🌙</button>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="teen.html">Teen</a>
+    <a href="company.html">Company</a>
+    <a href="#contact">Hire Now</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Hire Smart Teen Talent 🚀</h2>
+    <p>Affordable, creative & fast workforce for your business</p>
+
+    <div class="btn-group">
+      <button onclick="scrollToSection('contact')">Post a Job</button>
+      <button class="outline" onclick="scrollToSection('pricing')">View Pricing</button>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats">
+      <div><h3>10K+</h3><p>Teen Freelancers</p></div>
+      <div><h3>5K+</h3><p>Projects Completed</p></div>
+      <div><h3>1K+</h3><p>Companies</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust">
+  <h2>Trusted By Growing Companies</h2>
+  <div class="grid">
+    <div class="card">Startup Teams</div>
+    <div class="card">Small Businesses</div>
+    <div class="card">Content Creators</div>
+    <div class="card">Agencies</div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <h2>Why Choose Funngro</h2>
+  <div class="grid">
+    <div class="card">💡 Creative & Fresh Ideas</div>
+    <div class="card">⚡ Quick Turnaround</div>
+    <div class="card">💸 Budget Friendly</div>
+    <div class="card">📈 Growth-Oriented Talent</div>
+    <div class="card">🧠 Skilled Students</div>
+    <div class="card">🌍 Remote Ready</div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="steps">
+  <h2>How It Works</h2>
+  <div class="grid">
+    <div class="card">1️⃣ Post Your Project</div>
+    <div class="card">2️⃣ Get Applications</div>
+    <div class="card">3️⃣ Hire Best Talent</div>
+    <div class="card">4️⃣ Get Work Done Fast</div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing">
+  <h2>Simple Pricing</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Free</h3>
+      <p>₹0</p>
+      <ul>
+        <li>Post 1 Project</li>
+        <li>Basic Support</li>
+      </ul>
+      <button onclick="scrollToSection('contact')">Start</button>
+    </div>
+
+    <div class="card">
+      <h3>Pro</h3>
+      <p>₹499</p>
+      <ul>
+        <li>Unlimited Projects</li>
+        <li>Priority Listing</li>
+      </ul>
+      <button onclick="scrollToSection('contact')">Choose</button>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <p>₹999</p>
+      <ul>
+        <li>Top Talent Access</li>
+        <li>Dedicated Support</li>
+      </ul>
+      <button onclick="scrollToSection('contact')">Choose</button>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2>What Companies Say</h2>
+  <div class="grid">
+    <div class="card">"Amazing young talent!"</div>
+    <div class="card">"Affordable & fast work delivery"</div>
+    <div class="card">"Perfect for startups"</div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <h2>FAQs</h2>
+
+  <div class="faq-item" onclick="toggleFAQ(this)">
+    <div class="faq-question">How fast can I hire?</div>
+    <div class="faq-answer">Within 24-48 hours.</div>
+  </div>
+
+  <div class="faq-item" onclick="toggleFAQ(this)">
+    <div class="faq-question">Is talent verified?</div>
+    <div class="faq-answer">Yes, basic screening is done.</div>
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Start Hiring Today 🚀</h2>
+  <button onclick="scrollToSection('contact')">Post a Job</button>
+</section>
+
+<!-- CONTACT FORM -->
+<section id="contact" class="contact">
+  <h2>Hire Now</h2>
+
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Company Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="text" placeholder="Project Budget (₹)">
+    <textarea placeholder="Project Details" required></textarea>
+    <button type="submit">Submit Project</button>
+  </form>
+</section>
+
+<!-- BACK TO TOP -->
+<button id="topBtn" onclick="scrollTopBtn()">⬆</button>
+
+<!-- FOOTER -->
+<footer>
+  <p>Hire young talent India</p>
+  <p>© 2026 Funngro | Aryan Singh 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
